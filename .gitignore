@@ -1,0 +1,10 @@
+# Local source data are provided separately and should not be committed.
+/Dataset_*.parquet
+/Dataset_*.csv
+# Generated clean copies are reproducible from scripts/clean_mmdec.py.
+/data/processed/
+# Python cache files.
+__pycache__/
+*.py[cod]
+# Jupyter's auto-saved backups are local editor state, not project notebooks.
+.ipynb_checkpoints/

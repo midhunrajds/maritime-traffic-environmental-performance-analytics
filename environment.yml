@@ -1,0 +1,13 @@
+name: maritime-analytics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas>=1.5,<3
+  - numpy>=1.23,<2.4
+  - pyarrow>=12,<24
+  - scipy>=1.10
+  - scikit-learn>=1.2,<2
+  - matplotlib>=3.7
+  - jupyterlab>=3.6
+  - ipykernel>=6
